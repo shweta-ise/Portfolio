@@ -1,0 +1,1 @@
+new snowflakeCursor({ element: document.querySelector("#snowflake") })
