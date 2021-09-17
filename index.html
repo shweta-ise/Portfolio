@@ -13,138 +13,300 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
     <title>Portfolio-Shwetha R Bhat</title>
 </head>
 
 <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+
+        <a class="navbar-brand" href="#"><img src="Images/Logo3.png"/></a>
+
+        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+            class="fa fa-instagram"></i></a>
+        
+            <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+            class="fa fa-facebook"></i></a>
+        <a class="btn btn-social-icon btn-twitter" href="http://github.com/"><i
+            class="fa fa-github"></i></a>
+        <a class="btn btn-social-icon btn-google" href="http://linkedin.com/"><i
+            class="fa fa-linkedin"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarItems"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarItems">
+            <ul class="navbar-nav mr-4">
+
+                
+                <li class="nav-item">
+                    <a class="nav-link" data-value="aboutMe" href="#aboutMe">About</a>
+                </li>
+           
+                <li class="nav-item">
+                    <a class="nav-link " data-value="portfolio" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="contactform" href="#contactform">Contact</a>
+                </li>
+                <li class="nav-item">
+                 <a class="nav-link"><a href="path_to_file" download="proposed_file_name"><i class="bi bi-download"></i></a></li>
+            </ul>
+        </div>
+    </nav>
 
 
+    <header class="header">
+        <div class="overlay"></div>
+        <div class="container">
 
-    <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-right" sticky-top">
+            <div class="description typing">
+                <h2> Hello..Welcome to my page!!</h2>
+                <div class="fade-in-text">
+                    <p> I am Shwetha.This is my online portfolio.I am a Quality Assurance Engineer and passionate about
+                        web development.
 
+                    </p>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCol">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                </div>
+                <a href="#aboutMe" class="button btn btn-outline-secondary btn-lg">See More</a>
 
-            <div class="collapse navbar-collapse" id="navCol">
-
-                <ul class="navbar-nav">
-                    <li class="nav-item active "><a class="nav-link " href="index.html">
-                            Home</a></li>
-                    <li class="nav-item"><a class="nav-link nav-text" href="About.html">
-                            About</a></li>
-
-                    <li class="nav-item"><a class="nav-link nav-text" href="Contact.html">
-                            Contact</a></li>
-
-                </ul>
-                </ul>
-            </div>
-
-
-
-        </nav>
-
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <h1> 
-
-                </h1>
             </div>
         </div>
-
-        <div class="row">
-
-            <div class="col col-12 text-center">
-                <h1>
-                   Hi There...I am Shwetha..My website is under construction!!
-                </h1>
-            </div>
-            <div class="col text-center">
+    </header>
 
 
-                <img class="img-fluid" src="/images/ProfilePic.jpg" />
+
+    <div class="about" id="aboutMe">
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <div class="fade-in-text">
+                        <h3 class="desc">About Me </h3>
+                        <p class="desc">
+                            I am Shwetha.I am a Quality Assurance Engineer having over 8 years of experience in the
+                            Software Testing industry.
+                            I have worked for Service based companies and Start-ups under Finance,Banking and Music
+                            Domain.I have also worked as a SCRUM Master in my earlier engagements.
+                            As a tester, I always looked for multiple ways to break the Software code.Recently I
+                            developed interests in Web Development and I am getting to know the constructive side of it.
+
+                            From a personal perspective I am an optimistic person who believes that all things happen
+                            for a reason.My interests are baking,cooking,hiking,gaming,yoga,sketching,knitting,dancing
+                            and many many more.I am an avid traveller, food lover and a fitness enthusiast.
+                            I am a mother to a 9 year old boy with whom I spend most of my time.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="fade-in-text">
+                        <img src="Images/ProfilePic.jpg" class="img-fluid">
+                    </div>
+
+                </div>
+
+
 
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
     </div>
+
+
+
+
+    <!--Carousel Style-->
+    <div class="Portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mx-auto">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card ">
+                                    <h2 class="card-title">Experience and Technical Expertise</h2>
+                                    <img src="Images/Work.jpg" alt="" />
+                                    <p class="card-desc">
+
+                                        Quality Assurance (QA) Analyst with over 8+ years of experience in the IT
+                                        industry spanning across functional testing, data warehousing
+                                        (extract-transform-load), web and mobile application testing across the Music,
+                                        Banking and Financial domains. Stints at Tata Consultancy Services (TCS) and
+                                        startups like mSangeet have provided me with a holistic view and hands-on
+                                        experience on automation and manual testing on Mobile and Standalone
+                                        applications across all stages of product development lifecycle including
+                                        Waterfall and Scrum methodologies.
+                                        I have worked on the following tools such as Selenium WebDriver, TestNg, Git,
+                                        GitHub, Postman, TestRail, Quality Center/ALM, Jira, MS Visio , MySQL Workbench,
+                                        Control M , Tivoli, Terradata,Informatica, HP ALM Quality Center, Jira, Browser
+                                        Stack,Visual Studio,Eclipse.Proogramming languages known are Java,SQL
+                                        ,Javascript,HTML and CSS.
+
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card ">
+                                    <h2 class="card-title">Roles and Responsibilities</h2>
+                                    <img src="Images/skill.jpeg" alt="" />
+
+                                    <p class="card-desc">
+                                        ● Extensive knowledge of QA methodology like Agile and Waterfall.
+                                        Involved in analyzing the requirements document to formulate the test cases and
+                                        conducted manual testing and automation testing for the entire application.
+
+                                        ● ISTQB certified.
+
+                                        ● Expertise in Software Development Life Cycle (SDLC).
+
+                                        ● Skilled in understanding and developing Business requirements, designed
+                                        documents, Test Plan and STLC using tools such as Visio.
+
+                                        ● Working experience in SCRUM management, leading QA team, conducting daily
+                                        standup meetings.
+
+                                        ● Extensive knowledge of QA methodology like Agile and Waterfall.
+
+                                        ● Proficient in Manual Testing and Automation Testing
+
+                                        ● Good expertise in Banking and Financial Domain(Credit Card Services and
+                                        Investment Banking)
+
+                                        ● Working knowledge in Java Selenium Webdriver , running automation test using
+                                        Testng.
+
+                                        ● Extensively used automated tool QTP for Regression Testing
+
+                                        ● Proficient in using Github and Github commands.
+
+                                        ● Expert in writing defect and using defect tracking tool such as JIRA,ALM and
+                                        Bugzilla.
+
+
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card ">
+                                    <h2 class="card-title">Education and Certifications</h2>
+                                    <img src="Images/Education.jpg" alt="" />
+
+                                    <p class="card-desc">
+                                        Bachelor of Engineering in Information Science.
+                                        International Board of Software Testing certification(ISTQB)Foundation+Advance
+                                        Agile and SCRUM Fundamentals certification.
+
+
+                                    </p>
+
+
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleFade" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleFade" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    <!-- Contact form -->
+    <div class="contact-form" id="contactform">
+
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-12">
+                        <h1> Get in Touch</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-lg-12 col-sm-12 right">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Name" name="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" placeholder="YourEmail"
+                                name="email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg" placeholder="Your message goes here" rows="8">
+                                </textarea>
+                        </div>
+                        <input type="submit" class="btn btn-secondary btn-block " value="Send" name="">
+                    </div>
+                </div>
+        </div>
+        </form>
+    </div>
+
+
 
     <footer>
         <div class="container">
             <div class="row">
 
-
+                <div class="col-6 col-sm-6 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://github.com/"><i
+                            class="fa fa-github"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://linkedin.com/"><i
+                            class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="col-sm-6 text-center">
+                    <span>Mail me at</span> </br>
+                    <a role="button" class="btn btn-link" href="mailto:shweta.ise@gmail.com"><i
+                            class="fa fa-envelope-o"></i> shweta.ise@gmail.com </a>
+                </div>
             </div>
         </div>
     </footer>
+
+
+
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-
-        $(document).ready(function () {
-
-            var mousePos = {};
-
-            function getRandomInt(min, max) {
-                return Math.round(Math.random() * (max - min + 1)) + min;
-            }
-
-            $(window).mousemove(function (e) {
-                mousePos.x = e.pageX;
-                mousePos.y = e.pageY;
-            });
-
-            $(window).mouseleave(function (e) {
-                mousePos.x = -1;
-                mousePos.y = -1;
-            });
-
-            var draw = setInterval(function () {
-                if (mousePos.x > 0 && mousePos.y > 0) {
-
-                    var range = 15;
-
-                    var color = "background: rgb(" + getRandomInt(0, 255) + "," + getRandomInt(0, 255) + "," + getRandomInt(0, 255) + ");";
-
-                    var sizeInt = getRandomInt(10, 30);
-                    size = "height: " + sizeInt + "px; width: " + sizeInt + "px;";
-
-                    var left = "left: " + getRandomInt(mousePos.x - range - sizeInt, mousePos.x + range) + "px;";
-
-                    var top = "top: " + getRandomInt(mousePos.y - range - sizeInt, mousePos.y + range) + "px;";
-
-                    var style = left + top + color + size;
-                    $("<div class='ball' style='" + style + "'></div>").appendTo('#wrap').one("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend", function () { $(this).remove(); });
-                }
-            }, 1);
-        });
+    <script src="js/main.js"></script>
 
 
-
-
-    </script>
 </body>
-
 
 </html>
